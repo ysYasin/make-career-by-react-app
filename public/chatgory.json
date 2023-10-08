@@ -1,0 +1,28 @@
+ [
+      {
+        "id": "1",
+        "image": "image1.jpg",
+        "heading": "Item 1",
+        "spanText": "This is the span text for item 1."
+      },
+      {
+        "id": "2",
+        "image": "image2.jpg",
+        "heading": "Item 2",
+        "spanText": "This is the span text for item 2."
+      },
+      {
+        "id": "3",
+        "image": "image3.jpg",
+        "heading": "Item 3",
+        "spanText": "This is the span text for item 3."
+      },
+      {
+        "id": "4",
+        "image": "image4.jpg",
+        "heading": "Item 4",
+        "spanText": "This is the span text for item 4."
+      }
+    ]
+
+  
