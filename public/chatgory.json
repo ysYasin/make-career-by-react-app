@@ -1,28 +1,27 @@
- [
-      {
-        "id": "1",
-        "image": "image1.jpg",
-        "heading": "Item 1",
-        "spanText": "This is the span text for item 1."
-      },
-      {
-        "id": "2",
-        "image": "image2.jpg",
-        "heading": "Item 2",
-        "spanText": "This is the span text for item 2."
-      },
-      {
-        "id": "3",
-        "image": "image3.jpg",
-        "heading": "Item 3",
-        "spanText": "This is the span text for item 3."
-      },
-      {
-        "id": "4",
-        "image": "image4.jpg",
-        "heading": "Item 4",
-        "spanText": "This is the span text for item 4."
-      }
-    ]
-
+[
+    {
+      "id": "1t45ht4677t",
+      "image": "./career-catagory/engeniaring-removebg-preview.png",
+      "title": "engineering job",
+      "availability": "234 Jobs Available."
+    },
+    {
+      "id": "2js7t8tuped",
+      "image": "./career-catagory/financeIcon-removebg-preview.png",
+      "title": "account & finance",
+      "availability": "300 Jobs Available"
+    },
+    {
+      "id": "3fgy5iegfj",
+      "image": "./career-catagory/graphic-icon-removebg-preview.png",
+      "title": "graphic design",
+      "availability": "100+ Jobs Available"
+    },
+    {
+      "id": "4874hfdgj9e",
+      "image": "./career-catagory/marketing-removebg-preview.png",
+      "title": "Marketing and sales",
+      "availability": "150+ Jobs Available"
+    }
+  ]
   

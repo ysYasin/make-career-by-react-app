@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="py-5 flex justify-around items-center">
+    <nav className="py-5 flex absolute w-full justify-around items-center">
       <div className="logo">
         <img src="logo.png" width="30%" alt="" />
       </div>

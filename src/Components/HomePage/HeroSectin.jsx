@@ -2,12 +2,12 @@ import React from "react";
 
 const HeroSectin = () => {
   return (
-    <div className="md:flex w-full px-14  bg-green-50 justify-around pt-36 -z-10 absolute top-0 pb-10">
+    <div className="md:flex w-full md:px-14 px-5 bg-green-50 justify-around pt-36 -z-10 pb-10">
       <div className="lg:w-6/12 flex flex-col gap-6 ">
         <div className="lg:text-2xl font-serif mt-10 font-semibold capitalize">
           <h1>One step</h1>
           <h1>closer to your </h1>
-          <h3 style={{ color: "#7E90FE" }} className="md:text-7xl">
+          <h3 style={{ color: "#7E90FE" }} className="md:text-7xl text-5xl">
             {" "}
             dream job
           </h3>
