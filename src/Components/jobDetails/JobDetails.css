@@ -1,0 +1,11 @@
+.jd-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media only screen and (max-width:688px) {
+    .jd-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+}

@@ -5,7 +5,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Home from "./Components/HomePage/Home";
 import JobDeails from "./Components/jobDetails/JobDeails";
-import LoadDetailData from "./LoadDetailData";
+import { LoadDetailData, gettingDataFromDb } from "./LoadDetailData";
+import AppyedJob from "./Components/ApplyedjobPage/Applyedjob/AppyedJob";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
         path: "/:applyID",
         element: <JobDeails />,
         loader: ({ params }) => LoadDetailData(params.applyID),
+      },
+      {
+        path: "Appliedjobs",
+        element: <AppyedJob></AppyedJob>,
+        loader: gettingDataFromDb,
       },
     ],
   },

@@ -38,7 +38,7 @@ const Fetured = () => {
         }}
         className="text-white my-8"
       >
-        {(state && "Load More..") || "Show Less"}
+        {(state && "Show Less") || "Load More.."}
       </button>
     </section>
   );
