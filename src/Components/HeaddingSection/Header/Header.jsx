@@ -1,25 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ActivePage from "../../IsActivePage/ActivePage";
 
 const Header = () => {
   return (
-    <nav className="py-5 flex absolute w-full justify-around items-center">
+    <nav className="py-5 flex absolute z-30 w-full justify-around items-center">
       <div className="logo">
         <img src="logo.png" width="30%" alt="" />
       </div>
       <div className="flex text-xl gap-5">
-        <Link to="/" className="hover:text-blue-400">
-          Home
-        </Link>
-        <Link to="/Appliedjobs" className="hover:text-blue-400">
-          Applied jobs
-        </Link>
-        <Link to="/" className="hover:text-blue-400">
-          Statistics
-        </Link>
-        <Link to="/" className="hover:text-blue-400">
-          Blog
-        </Link>
+        <ActivePage to="/">Home</ActivePage>
+        <ActivePage to="/Appliedjobs">Applied jobs</ActivePage>
+        <ActivePage to="/statistic">Statistics</ActivePage>
+        <ActivePage to="/">Blog</ActivePage>
       </div>
       <button
         type="submit"

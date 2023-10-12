@@ -7,15 +7,19 @@ import Home from "./Components/HomePage/Home";
 import JobDeails from "./Components/jobDetails/JobDeails";
 import { LoadDetailData, gettingDataFromDb } from "./LoadDetailData";
 import AppyedJob from "./Components/ApplyedjobPage/Applyedjob/AppyedJob";
+import Statistic from "./Components/Statistic/Statistic";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
+        errorElement: <ErrorPage />,
         loader: () => fetch("chatgory.json"),
       },
       {
@@ -27,6 +31,10 @@ const router = createBrowserRouter([
         path: "Appliedjobs",
         element: <AppyedJob></AppyedJob>,
         loader: gettingDataFromDb,
+      },
+      {
+        path: "statistic",
+        element: <Statistic />,
       },
     ],
   },
